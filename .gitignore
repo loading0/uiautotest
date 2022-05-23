@@ -1,0 +1,13 @@
+.pytest_cache
+.idea
+common/__pycache__/
+configure/__pycache__/
+page_actions/__pycache__/
+page_actions/.pytest_cache/
+page_locators/__pycache__/
+testcases/.pytest_cache/
+testcases/__pycache__/
+testcases/mall_manage/.pytest_cache/
+testcases/mall_manage/__pycache__/
+utils/__pycache__/
+venv
