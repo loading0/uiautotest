@@ -46,15 +46,15 @@ class PageBase:
         """
         self.driver.back()
 
-    def open_url(self):
-        # print("*******driver type:*******", type(self.driver))
-        # print("driver of values:", self.driver)
-        self.driver.get("https://www.baidu.com")
+    # def open_url(self):
+    #     # print("*******driver type:*******", type(self.driver))
+    #     # print("driver of values:", self.driver)
+    #     self.driver.get("https://www.baidu.com")
 
     def select_all(self, locator):
-        '''
+        """
         全选
-        '''
+        """
         try:
             ele = self.find_element(locator)
             if ele:
@@ -63,9 +63,9 @@ class PageBase:
             self.log.error(str(e))
 
     def copy(self, locator):
-        '''
+        """
         复制
-        '''
+        """
         try:
             ele = self.find_element(locator)
             if ele:
@@ -92,9 +92,9 @@ class PageBase:
             self.log.error(str(err))
 
     def paste(self, locator):
-        '''
+        """
         粘贴
-        '''
+        """
         try:
             ele = self.find_element(locator)
             if ele:
@@ -103,9 +103,9 @@ class PageBase:
             self.log.error(str(e))
 
     def press_enter(self, locator, timeout=5):
-        '''
+        """
         模拟键盘回车键操作
-        '''
+        """
         try:
             ele = self.find_element(locator, timeout)
             if ele:
@@ -114,9 +114,9 @@ class PageBase:
             self.log.error(str(e))
 
     def back_space(self, locator):
-        '''
+        """
         模拟键盘的删除键
-        '''
+        """
         try:
             ele = self.find_element(locator)
             if ele:
@@ -125,9 +125,9 @@ class PageBase:
             self.log.error(str(e))
 
     def press_right(self, locator):
-        '''
+        """
         模拟键盘回车键操作
-        '''
+        """
         try:
             ele = self.find_element(locator)
             if ele:

@@ -20,7 +20,7 @@ class TestGoodsCateManage:
         sleep(1)
 
     def teardown(self):
-        sleep(3)
+        sleep(2)
         self.driver.quit_Browser()
 
     @allure.story("商品分类添加")
