@@ -1,0 +1,21 @@
+[ {
+  "uid" : "15b4e628144807a6",
+  "name" : "商品数据管理搜索测试",
+  "time" : {
+    "start" : 1653299106769,
+    "stop" : 1653299114401,
+    "duration" : 7632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5654e432f8af3b0f",
+  "name" : "商品分类添加测试",
+  "time" : {
+    "start" : 1653299081065,
+    "stop" : 1653299092983,
+    "duration" : 11918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

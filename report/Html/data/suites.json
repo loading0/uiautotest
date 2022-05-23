@@ -1,0 +1,59 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.mall_manage",
+    "children" : [ {
+      "name" : "test_goods_cate_manage",
+      "children" : [ {
+        "name" : "TestGoodsCateManage",
+        "children" : [ {
+          "name" : "商品分类添加测试",
+          "uid" : "5654e432f8af3b0f",
+          "parentUid" : "1b913195adcc4019598cf4c81a562925",
+          "status" : "passed",
+          "time" : {
+            "start" : 1653299081065,
+            "stop" : 1653299092983,
+            "duration" : 11918
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1b913195adcc4019598cf4c81a562925"
+      } ],
+      "uid" : "778d2fd322bacf7a224577b021a814ab"
+    }, {
+      "name" : "test_goods_data_manage",
+      "children" : [ {
+        "name" : "TestGoodsDataManage",
+        "children" : [ {
+          "name" : "商品数据管理搜索测试",
+          "uid" : "15b4e628144807a6",
+          "parentUid" : "6d4f1b447e3259d9ea3650bda4194d22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1653299106769,
+            "stop" : 1653299114401,
+            "duration" : 7632
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6d4f1b447e3259d9ea3650bda4194d22"
+      } ],
+      "uid" : "5e23403af7301b27044b39895e8ab749"
+    } ],
+    "uid" : "c38ea5a5a1eaaed1e9cfc833b6d73e9f"
+  } ]
+}

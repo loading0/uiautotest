@@ -1,0 +1,16 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 23 17:45:06 CST 2022","Mon May 23 17:45:14 CST 2022","7632","testcases.mall_manage","test_goods_data_manage","TestGoodsDataManage","","","商品数据管理搜索测试","
+        1.进入商品数据管理tab页
+        2.输入商品名称 test1
+        3.点击搜索按钮
+        4.校验商品编号
+        :return:
+        "
+"passed","Mon May 23 17:44:41 CST 2022","Mon May 23 17:44:52 CST 2022","11918","testcases.mall_manage","test_goods_cate_manage","TestGoodsCateManage","","","商品分类添加测试","
+        1.点击添加分类按钮
+        2.输入商品分类名称
+        3.输入商品分类描述
+        4.点击保存按钮
+        5.校验新添加商品分类成功展示
+        :return:
+        "

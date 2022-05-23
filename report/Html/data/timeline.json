@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SK-20210928GMPS",
+    "children" : [ {
+      "name" : "3028-MainThread",
+      "children" : [ {
+        "name" : "商品分类添加测试",
+        "uid" : "5654e432f8af3b0f",
+        "parentUid" : "dead12e784a8ac59f774e2e3684d64fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653299081065,
+          "stop" : 1653299092983,
+          "duration" : 11918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "商品数据管理搜索测试",
+        "uid" : "15b4e628144807a6",
+        "parentUid" : "dead12e784a8ac59f774e2e3684d64fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653299106769,
+          "stop" : 1653299114401,
+          "duration" : 7632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dead12e784a8ac59f774e2e3684d64fb"
+    } ],
+    "uid" : "f74f311e4ec5bab73fb458e372ef8219"
+  } ]
+}

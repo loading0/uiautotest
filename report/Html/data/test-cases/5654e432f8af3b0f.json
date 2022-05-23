@@ -1,0 +1,139 @@
+{
+  "uid" : "5654e432f8af3b0f",
+  "name" : "商品分类添加测试",
+  "fullName" : "testcases.mall_manage.test_goods_cate_manage.TestGoodsCateManage#test_goods_cate_add",
+  "historyId" : "ddabb4ee6202ce7508cc66b660b9fe67",
+  "time" : {
+    "start" : 1653299081065,
+    "stop" : 1653299092983,
+    "duration" : 11918
+  },
+  "description" : "\n        1.点击添加分类按钮\n        2.输入商品分类名称\n        3.输入商品分类描述\n        4.点击保存按钮\n        5.校验新添加商品分类成功展示\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    1.点击添加分类按钮\n    2.输入商品分类名称\n    3.输入商品分类描述\n    4.点击保存按钮\n    5.校验新添加商品分类成功展示\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestGoodsCateManage",
+    "time" : {
+      "start" : 1653299072014,
+      "stop" : 1653299081065,
+      "duration" : 9051
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        1.点击添加分类按钮\n        2.输入商品分类名称\n        3.输入商品分类描述\n        4.点击保存按钮\n        5.校验新添加商品分类成功展示\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9cfebb4531968c7f",
+      "name" : "case_name",
+      "source" : "9cfebb4531968c7f.json",
+      "type" : "application/json",
+      "size" : 21
+    }, {
+      "uid" : "a6ea6a033e1930b1",
+      "name" : "step",
+      "source" : "a6ea6a033e1930b1.json",
+      "type" : "application/json",
+      "size" : 192
+    }, {
+      "uid" : "5ef295d29a0fa3e0",
+      "name" : "screenshot => step1",
+      "source" : "5ef295d29a0fa3e0.png",
+      "type" : "image/png",
+      "size" : 500315
+    }, {
+      "uid" : "3be22f33cec9bce6",
+      "name" : "expected_result",
+      "source" : "3be22f33cec9bce6.json",
+      "type" : "application/json",
+      "size" : 26
+    }, {
+      "uid" : "e2c9ad750853a9f8",
+      "name" : "actual_result",
+      "source" : "e2c9ad750853a9f8.json",
+      "type" : "application/json",
+      "size" : 55
+    }, {
+      "uid" : "76d512d74abea6fe",
+      "name" : "log",
+      "source" : "76d512d74abea6fe.txt",
+      "type" : "text/plain",
+      "size" : 176
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestGoodsCateManage::0",
+    "time" : {
+      "start" : 1653299092983,
+      "stop" : 1653299098080,
+      "duration" : 5097
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.mall_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods_cate_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGoodsCateManage"
+  }, {
+    "name" : "host",
+    "value" : "SK-20210928GMPS"
+  }, {
+    "name" : "thread",
+    "value" : "3028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.mall_manage.test_goods_cate_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5654e432f8af3b0f.json",
+  "parameterValues" : [ ]
+}
