@@ -279,7 +279,7 @@ class PageBase:
         except Exception as e:
             self.log.error(str(e))
             self.log.error(f"{locator} 点击失败")
-            self.log.error("未找到: {}".format(locator[1]))
+            self.log.error("未找到元素: {}".format(locator[1]))
             allure.attach(self.get_png(), "errPNG", allure.attachment_type.PNG)
             raise e
 
